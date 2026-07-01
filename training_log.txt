@@ -1,0 +1,202 @@
+========================================
+人脸表情识别系统 - 完整训练脚本
+========================================
+Device: cpu
+Loading dataset...
+Train: 28709, Val: 3589 (4.6s)
+Model params: 1,274,823
+Starting training...
+  Epoch 1, Batch 0/449, Loss: 2.0131
+  Epoch 1, Batch 50/449, Loss: 1.8177
+  Epoch 1, Batch 100/449, Loss: 1.7367
+  Epoch 1, Batch 150/449, Loss: 1.8213
+  Epoch 1, Batch 200/449, Loss: 1.7270
+  Epoch 1, Batch 250/449, Loss: 1.8526
+  Epoch 1, Batch 300/449, Loss: 1.7024
+  Epoch 1, Batch 350/449, Loss: 1.7258
+  Epoch 1, Batch 400/449, Loss: 1.6371
+Epoch 1: Loss=1.7690, Val Acc=35.92%, LR=0.001000, Time=73.3s
+  >> Saved best model! Acc=35.92%
+  Epoch 2, Batch 0/449, Loss: 1.6802
+  Epoch 2, Batch 50/449, Loss: 1.6190
+  Epoch 2, Batch 100/449, Loss: 1.5309
+  Epoch 2, Batch 150/449, Loss: 1.7417
+  Epoch 2, Batch 200/449, Loss: 1.4029
+  Epoch 2, Batch 250/449, Loss: 1.9507
+  Epoch 2, Batch 300/449, Loss: 1.5881
+  Epoch 2, Batch 350/449, Loss: 1.7237
+  Epoch 2, Batch 400/449, Loss: 1.6233
+Epoch 2: Loss=1.6476, Val Acc=45.19%, LR=0.001000, Time=78.7s
+  >> Saved best model! Acc=45.19%
+  Epoch 3, Batch 0/449, Loss: 1.7916
+  Epoch 3, Batch 50/449, Loss: 1.5635
+  Epoch 3, Batch 100/449, Loss: 1.6448
+  Epoch 3, Batch 150/449, Loss: 1.5506
+  Epoch 3, Batch 200/449, Loss: 1.5201
+  Epoch 3, Batch 250/449, Loss: 1.5771
+  Epoch 3, Batch 300/449, Loss: 1.6709
+  Epoch 3, Batch 350/449, Loss: 1.3947
+  Epoch 3, Batch 400/449, Loss: 1.3861
+Epoch 3: Loss=1.5895, Val Acc=44.64%, LR=0.001000, Time=77.3s
+  Epoch 4, Batch 0/449, Loss: 1.7049
+  Epoch 4, Batch 50/449, Loss: 1.6708
+  Epoch 4, Batch 100/449, Loss: 1.5550
+  Epoch 4, Batch 150/449, Loss: 1.4224
+  Epoch 4, Batch 200/449, Loss: 1.4804
+  Epoch 4, Batch 250/449, Loss: 1.5168
+  Epoch 4, Batch 300/449, Loss: 1.6447
+  Epoch 4, Batch 350/449, Loss: 1.4976
+  Epoch 4, Batch 400/449, Loss: 1.5091
+Epoch 4: Loss=1.5526, Val Acc=44.39%, LR=0.001000, Time=93.6s
+  Epoch 5, Batch 0/449, Loss: 1.6235
+  Epoch 5, Batch 50/449, Loss: 1.5012
+  Epoch 5, Batch 100/449, Loss: 1.5093
+  Epoch 5, Batch 150/449, Loss: 1.6072
+  Epoch 5, Batch 200/449, Loss: 1.4807
+  Epoch 5, Batch 250/449, Loss: 1.5404
+  Epoch 5, Batch 300/449, Loss: 1.6079
+  Epoch 5, Batch 350/449, Loss: 1.4313
+  Epoch 5, Batch 400/449, Loss: 1.4937
+Epoch 5: Loss=1.5294, Val Acc=47.67%, LR=0.001000, Time=120.3s
+  >> Saved best model! Acc=47.67%
+  Epoch 6, Batch 0/449, Loss: 1.5870
+  Epoch 6, Batch 50/449, Loss: 1.3513
+  Epoch 6, Batch 100/449, Loss: 1.5707
+  Epoch 6, Batch 150/449, Loss: 1.2736
+  Epoch 6, Batch 200/449, Loss: 1.5941
+  Epoch 6, Batch 250/449, Loss: 1.4624
+  Epoch 6, Batch 300/449, Loss: 1.4916
+  Epoch 6, Batch 350/449, Loss: 1.6855
+  Epoch 6, Batch 400/449, Loss: 1.4712
+Epoch 6: Loss=1.4950, Val Acc=47.95%, LR=0.001000, Time=121.8s
+  >> Saved best model! Acc=47.95%
+  Epoch 7, Batch 0/449, Loss: 1.5198
+  Epoch 7, Batch 50/449, Loss: 1.5587
+  Epoch 7, Batch 100/449, Loss: 1.6571
+  Epoch 7, Batch 150/449, Loss: 1.4937
+  Epoch 7, Batch 200/449, Loss: 1.3829
+  Epoch 7, Batch 250/449, Loss: 1.4438
+  Epoch 7, Batch 300/449, Loss: 1.4828
+  Epoch 7, Batch 350/449, Loss: 1.3900
+  Epoch 7, Batch 400/449, Loss: 1.4230
+Epoch 7: Loss=1.4783, Val Acc=49.76%, LR=0.001000, Time=121.7s
+  >> Saved best model! Acc=49.76%
+  Epoch 8, Batch 0/449, Loss: 1.3388
+  Epoch 8, Batch 50/449, Loss: 1.3347
+  Epoch 8, Batch 100/449, Loss: 1.4367
+  Epoch 8, Batch 150/449, Loss: 1.7638
+  Epoch 8, Batch 200/449, Loss: 1.5167
+  Epoch 8, Batch 250/449, Loss: 1.5064
+  Epoch 8, Batch 300/449, Loss: 1.4541
+  Epoch 8, Batch 350/449, Loss: 1.5632
+  Epoch 8, Batch 400/449, Loss: 1.5638
+Epoch 8: Loss=1.4617, Val Acc=49.60%, LR=0.001000, Time=127.6s
+  Epoch 9, Batch 0/449, Loss: 1.3789
+  Epoch 9, Batch 50/449, Loss: 1.5156
+  Epoch 9, Batch 100/449, Loss: 1.6670
+  Epoch 9, Batch 150/449, Loss: 1.4296
+  Epoch 9, Batch 200/449, Loss: 1.2894
+  Epoch 9, Batch 250/449, Loss: 1.3838
+  Epoch 9, Batch 300/449, Loss: 1.1748
+  Epoch 9, Batch 350/449, Loss: 1.3980
+  Epoch 9, Batch 400/449, Loss: 1.4084
+Epoch 9: Loss=1.4399, Val Acc=49.90%, LR=0.001000, Time=125.9s
+  >> Saved best model! Acc=49.90%
+  Epoch 10, Batch 0/449, Loss: 1.5556
+  Epoch 10, Batch 50/449, Loss: 1.6286
+  Epoch 10, Batch 100/449, Loss: 1.4709
+  Epoch 10, Batch 150/449, Loss: 1.3613
+  Epoch 10, Batch 200/449, Loss: 1.3964
+  Epoch 10, Batch 250/449, Loss: 1.3125
+  Epoch 10, Batch 300/449, Loss: 1.2657
+  Epoch 10, Batch 350/449, Loss: 1.4447
+  Epoch 10, Batch 400/449, Loss: 1.4743
+Epoch 10: Loss=1.4214, Val Acc=51.71%, LR=0.001000, Time=130.6s
+  >> Saved best model! Acc=51.71%
+  Epoch 11, Batch 0/449, Loss: 1.4361
+  Epoch 11, Batch 50/449, Loss: 1.2842
+  Epoch 11, Batch 100/449, Loss: 1.4819
+  Epoch 11, Batch 150/449, Loss: 1.3008
+  Epoch 11, Batch 200/449, Loss: 1.3863
+  Epoch 11, Batch 250/449, Loss: 1.2912
+  Epoch 11, Batch 300/449, Loss: 1.5311
+  Epoch 11, Batch 350/449, Loss: 1.3723
+  Epoch 11, Batch 400/449, Loss: 1.4518
+Epoch 11: Loss=1.4012, Val Acc=51.69%, LR=0.001000, Time=137.3s
+  Epoch 12, Batch 0/449, Loss: 1.3579
+  Epoch 12, Batch 50/449, Loss: 1.4305
+  Epoch 12, Batch 100/449, Loss: 1.3651
+  Epoch 12, Batch 150/449, Loss: 1.5609
+  Epoch 12, Batch 200/449, Loss: 1.2592
+  Epoch 12, Batch 250/449, Loss: 1.3887
+  Epoch 12, Batch 300/449, Loss: 1.3341
+  Epoch 12, Batch 350/449, Loss: 1.4195
+  Epoch 12, Batch 400/449, Loss: 1.3930
+Epoch 12: Loss=1.3833, Val Acc=51.21%, LR=0.001000, Time=137.2s
+  Epoch 13, Batch 0/449, Loss: 1.3010
+  Epoch 13, Batch 50/449, Loss: 1.3379
+  Epoch 13, Batch 100/449, Loss: 1.2439
+  Epoch 13, Batch 150/449, Loss: 1.3109
+  Epoch 13, Batch 200/449, Loss: 1.2497
+  Epoch 13, Batch 250/449, Loss: 1.3819
+  Epoch 13, Batch 300/449, Loss: 1.4215
+  Epoch 13, Batch 350/449, Loss: 1.4026
+  Epoch 13, Batch 400/449, Loss: 1.4375
+Epoch 13: Loss=1.3548, Val Acc=52.63%, LR=0.001000, Time=129.6s
+  >> Saved best model! Acc=52.63%
+  Epoch 14, Batch 0/449, Loss: 1.4087
+  Epoch 14, Batch 50/449, Loss: 1.2604
+  Epoch 14, Batch 100/449, Loss: 1.2674
+  Epoch 14, Batch 150/449, Loss: 1.4270
+  Epoch 14, Batch 200/449, Loss: 1.2848
+  Epoch 14, Batch 250/449, Loss: 1.5110
+  Epoch 14, Batch 300/449, Loss: 1.3687
+  Epoch 14, Batch 350/449, Loss: 1.1664
+  Epoch 14, Batch 400/449, Loss: 1.1639
+Epoch 14: Loss=1.3335, Val Acc=51.94%, LR=0.001000, Time=130.5s
+  Epoch 15, Batch 0/449, Loss: 1.5714
+  Epoch 15, Batch 50/449, Loss: 1.4894
+  Epoch 15, Batch 100/449, Loss: 1.2918
+  Epoch 15, Batch 150/449, Loss: 1.2461
+  Epoch 15, Batch 200/449, Loss: 1.4277
+  Epoch 15, Batch 250/449, Loss: 1.4152
+  Epoch 15, Batch 300/449, Loss: 1.1098
+  Epoch 15, Batch 350/449, Loss: 1.3779
+  Epoch 15, Batch 400/449, Loss: 1.2641
+Epoch 15: Loss=1.3127, Val Acc=53.97%, LR=0.001000, Time=133.8s
+  >> Saved best model! Acc=53.97%
+  Epoch 16, Batch 0/449, Loss: 1.2515
+  Epoch 16, Batch 50/449, Loss: 1.1873
+  Epoch 16, Batch 100/449, Loss: 1.3370
+  Epoch 16, Batch 150/449, Loss: 1.4065
+  Epoch 16, Batch 200/449, Loss: 1.2339
+  Epoch 16, Batch 250/449, Loss: 1.4164
+  Epoch 16, Batch 300/449, Loss: 1.2142
+  Epoch 16, Batch 350/449, Loss: 1.4158
+  Epoch 16, Batch 400/449, Loss: 1.3239
+Epoch 16: Loss=1.2898, Val Acc=54.75%, LR=0.001000, Time=133.3s
+  >> Saved best model! Acc=54.75%
+  Epoch 17, Batch 0/449, Loss: 1.5371
+  Epoch 17, Batch 50/449, Loss: 1.2489
+  Epoch 17, Batch 100/449, Loss: 1.2019
+  Epoch 17, Batch 150/449, Loss: 1.2791
+  Epoch 17, Batch 200/449, Loss: 1.2030
+  Epoch 17, Batch 250/449, Loss: 1.4026
+  Epoch 17, Batch 300/449, Loss: 1.2092
+  Epoch 17, Batch 350/449, Loss: 1.2063
+  Epoch 17, Batch 400/449, Loss: 1.1850
+Epoch 17: Loss=1.2638, Val Acc=57.54%, LR=0.001000, Time=137.4s
+  >> Saved best model! Acc=57.54%
+  Epoch 18, Batch 0/449, Loss: 1.3271
+  Epoch 18, Batch 50/449, Loss: 1.3693
+  Epoch 18, Batch 100/449, Loss: 1.3934
+  Epoch 18, Batch 150/449, Loss: 1.3655
+  Epoch 18, Batch 200/449, Loss: 1.1847
+  Epoch 18, Batch 250/449, Loss: 1.2806
+  Epoch 18, Batch 300/449, Loss: 1.3569
+  Epoch 18, Batch 350/449, Loss: 1.4768
+  Epoch 18, Batch 400/449, Loss: 1.2544
+Epoch 18: Loss=1.2467, Val Acc=56.87%, LR=0.001000, Time=132.1s
+  Epoch 19, Batch 0/449, Loss: 1.0999
+  Epoch 19, Batch 50/449, Loss: 1.2878
+  Epoch 19, Batch 100/449, Loss: 1.1774
